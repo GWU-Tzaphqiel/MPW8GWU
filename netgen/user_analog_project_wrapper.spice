@@ -1,7 +1,4 @@
-.subckt padframe_esd_and_low_Vt
-.ends
-
-.subckt surfaceTestArray
+.subckt GWUCompliledMPW8woRRAM
 .ends
 
 .subckt GWUCompliledMPW8
@@ -114,9 +111,8 @@
 + wbs_dat_o[7] wbs_dat_o[8] wbs_dat_o[9] wbs_sel_i[0] wbs_sel_i[1] wbs_sel_i[2] wbs_sel_i[3]
 + wbs_stb_i wbs_we_i
 
-X1 padframe_esd_and_low_Vt
-X2 surfaceTestArray
-X3 GWUCompliledMPW8
+X1 GWUCompliledMPW8woRRAM
+X2 GWUCompliledMPW8
 
 .ends
 
